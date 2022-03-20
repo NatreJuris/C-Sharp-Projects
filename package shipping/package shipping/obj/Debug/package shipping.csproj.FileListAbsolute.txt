@@ -1,0 +1,7 @@
+C:\Users\Student\Desktop\Basic_C#_Programs\package shipping\package shipping\obj\Debug\package shipping.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\Basic_C#_Programs\package shipping\package shipping\obj\Debug\package shipping.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\Basic_C#_Programs\package shipping\package shipping\bin\Debug\package shipping.exe.config
+C:\Users\Student\Desktop\Basic_C#_Programs\package shipping\package shipping\bin\Debug\package shipping.exe
+C:\Users\Student\Desktop\Basic_C#_Programs\package shipping\package shipping\bin\Debug\package shipping.pdb
+C:\Users\Student\Desktop\Basic_C#_Programs\package shipping\package shipping\obj\Debug\package shipping.exe
+C:\Users\Student\Desktop\Basic_C#_Programs\package shipping\package shipping\obj\Debug\package shipping.pdb
