@@ -1,0 +1,7 @@
+C:\Users\Student\Desktop\Basic_C#_Programs\arrays_list\arrays_list\obj\Debug\arrays_list.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\Basic_C#_Programs\arrays_list\arrays_list\obj\Debug\arrays_list.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\Basic_C#_Programs\arrays_list\arrays_list\bin\Debug\arrays_list.exe.config
+C:\Users\Student\Desktop\Basic_C#_Programs\arrays_list\arrays_list\bin\Debug\arrays_list.exe
+C:\Users\Student\Desktop\Basic_C#_Programs\arrays_list\arrays_list\bin\Debug\arrays_list.pdb
+C:\Users\Student\Desktop\Basic_C#_Programs\arrays_list\arrays_list\obj\Debug\arrays_list.exe
+C:\Users\Student\Desktop\Basic_C#_Programs\arrays_list\arrays_list\obj\Debug\arrays_list.pdb
