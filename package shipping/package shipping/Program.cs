@@ -26,7 +26,7 @@
             int Length = Convert.ToInt32(Console.ReadLine());
 
             int package = (Width * Height * Length) * weight / 100;  //equation for cost
-            if (Width > 50 || Height > 50 || Length > 50)           //checks dimensions 
+            if (Width + Height + Length > 50)           //checks dimensions 
             {
                 Console.WriteLine("Package too big to be shipped via Package Express.");
                 Console.ReadLine();                                 // exit if too big
