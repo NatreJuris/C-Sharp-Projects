@@ -63,7 +63,7 @@ namespace arrays_list
                 Console.WriteLine(icons[index3].ToString());
                 Console.ReadLine();
             }
-            catch (IndexOutOfRangeException a)                                      //displays error if outside of index
+            catch (ArgumentOutOfRangeException a)                                      //displays error if outside of index
             {
                 Console.WriteLine(a);
                 Console.ReadLine();
