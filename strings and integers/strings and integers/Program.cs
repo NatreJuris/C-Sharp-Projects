@@ -49,13 +49,19 @@ namespace strings_and_integers
 
             catch (DivideByZeroException)                                               //exceptions to catch
             {
-                Console.WriteLine("Division of {0} by zero.", numberList);
+                Console.WriteLine("Pick a number other than zero.");
+                Console.ReadLine();
+
+                Console.WriteLine("Program has emerged from error and will continue execution.");       //continues execution of program
+                Console.ReadLine();
+
             }
             catch (FormatException)
             {
                 Console.WriteLine("Input string was not in a correct format.");
+                Console.ReadLine();
+                Console.WriteLine("Program has emerged from error and will continue execution.");       //continues execution of program
             }
-            Console.WriteLine("Program has emerged from error and will continue execution.");       //continues execution of program
             Console.ReadLine();
         }   
     }
