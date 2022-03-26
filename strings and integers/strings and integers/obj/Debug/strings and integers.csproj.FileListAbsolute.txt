@@ -1,0 +1,7 @@
+C:\Users\Student\source\repos\strings and integers\strings and integers\bin\Debug\strings and integers.exe.config
+C:\Users\Student\source\repos\strings and integers\strings and integers\bin\Debug\strings and integers.exe
+C:\Users\Student\source\repos\strings and integers\strings and integers\bin\Debug\strings and integers.pdb
+C:\Users\Student\source\repos\strings and integers\strings and integers\obj\Debug\strings and integers.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\strings and integers\strings and integers\obj\Debug\strings and integers.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\strings and integers\strings and integers\obj\Debug\strings and integers.exe
+C:\Users\Student\source\repos\strings and integers\strings and integers\obj\Debug\strings and integers.pdb
