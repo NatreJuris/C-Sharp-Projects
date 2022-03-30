@@ -11,17 +11,17 @@ namespace Calling_Methods
 
 
 
-        public AddNumbers()
+        public int AddNumber(int num)
         {
-            Console.WriteLine("enter a number to perform math operations on.");
-            int X = int.Parse(Console.ReadLine());
-            int num = X + 5;
-            Console.WriteLine("This is your number plus 5.");
-            Console.WriteLine(num);
-            Console.ReadLine();
-
-
-
+            return num + 2;
+        } 
+        public int SubtrackNumber(int num)
+        {
+            return num - 2;
+        } 
+        public int MultiplyNumber(int num)
+        {
+            return num * 2;
         }
 
     }

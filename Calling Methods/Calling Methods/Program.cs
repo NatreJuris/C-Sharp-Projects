@@ -14,18 +14,27 @@ namespace Calling_Methods
         static void Main(string[] args)
         {
 
-            AddNumbers Add = new AddNumbers();
-            Console.ReadLine();
-            SubtractNumbers sub = new SubtractNumbers();
-            Console.ReadLine();
-            MultiplyNumbers mult = new MultiplyNumbers();
-            Console.ReadLine();
 
+            AddNumbers add = new AddNumbers();
+            int number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(add.AddNumber(number));
+            Console.ReadLine();
+            
+            AddNumbers sub = new AddNumbers();
+            int number1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(sub.SubtrackNumber(number1));
+            Console.ReadLine();
+            
+            AddNumbers mult = new AddNumbers();
+            int number2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(mult.MultiplyNumber(number2));
+            Console.ReadLine();
 
 
         }
 
 
+        
 
 
 
