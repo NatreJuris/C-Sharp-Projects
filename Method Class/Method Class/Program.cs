@@ -13,7 +13,7 @@ namespace Method_Class
         {
             Class1 c = new Class1();
 
-            c.Tell(4, 7);
+            c.Tell(num1 : 4, num2 : 7);
 
             
 
