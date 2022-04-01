@@ -18,10 +18,20 @@ namespace Main_Method
         }
         public string Method( string x)
         {
-            int num2 = Int32.Parse(x);
-            int o = num2 + 3;
-            x = Convert.ToString(o);
-            return Convert.ToString(x);
+            int result = 0;
+            try
+            {
+                int num2 = Int32.Parse(x);
+                int o = num2 + 3;
+                x = Convert.ToString(o);
+                return Convert.ToString(x);
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("You have entered an invalid numeric value. Feel free to restart and try again.");
+                result = 0;
+            }
+            return Convert.ToString(result);
         }
 
     }   
