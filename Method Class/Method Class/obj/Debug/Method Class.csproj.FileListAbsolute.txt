@@ -1,0 +1,7 @@
+C:\Users\Student\source\repos\Method Class\Method Class\bin\Debug\Method Class.exe.config
+C:\Users\Student\source\repos\Method Class\Method Class\bin\Debug\Method Class.exe
+C:\Users\Student\source\repos\Method Class\Method Class\bin\Debug\Method Class.pdb
+C:\Users\Student\source\repos\Method Class\Method Class\obj\Debug\Method Class.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\Method Class\Method Class\obj\Debug\Method Class.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\Method Class\Method Class\obj\Debug\Method Class.exe
+C:\Users\Student\source\repos\Method Class\Method Class\obj\Debug\Method Class.pdb
