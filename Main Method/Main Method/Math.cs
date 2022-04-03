@@ -12,7 +12,7 @@ namespace Main_Method
         {
             return num * 2;
         }
-        public double Method(double num)
+        public decimal Method(decimal num)
         {
             return num / 2;
         }
