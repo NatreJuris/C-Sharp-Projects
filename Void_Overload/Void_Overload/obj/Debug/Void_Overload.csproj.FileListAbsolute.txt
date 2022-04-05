@@ -1,7 +1,0 @@
-C:\Users\Student\source\repos\Void_Overload\Void_Overload\bin\Debug\Void_Overload.exe.config
-C:\Users\Student\source\repos\Void_Overload\Void_Overload\bin\Debug\Void_Overload.exe
-C:\Users\Student\source\repos\Void_Overload\Void_Overload\bin\Debug\Void_Overload.pdb
-C:\Users\Student\source\repos\Void_Overload\Void_Overload\obj\Debug\Void_Overload.csproj.AssemblyReference.cache
-C:\Users\Student\source\repos\Void_Overload\Void_Overload\obj\Debug\Void_Overload.csproj.CoreCompileInputs.cache
-C:\Users\Student\source\repos\Void_Overload\Void_Overload\obj\Debug\Void_Overload.exe
-C:\Users\Student\source\repos\Void_Overload\Void_Overload\obj\Debug\Void_Overload.pdb
