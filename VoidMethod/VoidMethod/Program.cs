@@ -13,7 +13,11 @@ namespace VoidMethod
         {
             Console.WriteLine("Enter a number to be divided by 2.");
             int num = Convert.ToInt32(Console.ReadLine());
-            Method(num);
+            Class1.Method(num);
+            Console.WriteLine(num);
+            Class1.Method(ref num, out int x);
+            Console.WriteLine(x);
+            Console.ReadLine();
 
         }
     }

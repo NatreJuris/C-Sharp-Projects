@@ -12,11 +12,14 @@ namespace VoidMethod
         {
             Console.WriteLine(num / 2);
             Console.ReadLine();
+            Class1.Method(ref num, out int x);
 
         }
-        public static void Method(string h, out int x)
+        public static void Method(ref int num, out int x)
         {
-            x = 5;
+
+            Console.ReadLine();
+            x = num / 2;
         }
     }
 }
