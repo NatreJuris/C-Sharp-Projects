@@ -10,7 +10,8 @@ namespace Abstract_Class
     {
         public override void SayName()
         {
-            base.SayName();
+            Console.WriteLine("Name:" + firstName + lastName);
+            Console.ReadLine();
         }
 
     }
