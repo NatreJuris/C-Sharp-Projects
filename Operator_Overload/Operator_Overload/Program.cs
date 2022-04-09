@@ -28,10 +28,10 @@ namespace Operator_Overload
 
             emp2.SayName();
 
-            Console.WriteLine("Do these two employees have the same employee number?");
+            Console.WriteLine("Do these two employees have the same employee Id?");
             Console.ReadLine();
 
-            Console.WriteLine(emp1 == emp2);
+            Console.WriteLine(emp1.Id == emp2.Id);
             Console.ReadLine();
             
         }
