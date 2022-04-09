@@ -9,28 +9,21 @@ namespace Operator_Overload
     public class Employee : Person
     {
         public int Id { get; set; }
-        public static bool operator ==(Employee employee, Employee employee2)
+        public static bool operator == (Employee emp1, Employee emp2)
         {
-            if (employee.Id == employee2.Id)
+            if (emp1.Id == emp2.Id)
                 return true;
             else
                 return false;
-            Console.WriteLine();
-            Console.ReadLine();
+      
         }
 
-        public static bool operator !=(Employee employee, Employee employee2)
+        public static bool operator != (Employee emp1, Employee emp2)
         {
-            return employee.Id != employee2.Id;
-        }
-
-        public override bool Equals(object obj)
-        {
-            var emp = obj as Employee;
-            if (emp == null)
+            if (emp1.Id != emp2.Id)
                 return false;
-
-            return this.Id.Equals(emp.Id);
+            else
+                return true;
         }
     }
 }

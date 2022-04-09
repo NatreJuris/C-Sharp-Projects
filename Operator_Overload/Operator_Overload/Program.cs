@@ -8,7 +8,11 @@ namespace Operator_Overload
 {
     public class Program
     {
-        static void Main(string[] args)
+
+       
+
+
+        public static void Main(string[] args)
         {
             Employee emp1 = new Employee();
             emp1.FirstName = " Sample ";
@@ -16,14 +20,26 @@ namespace Operator_Overload
             emp1.Id = 1;
 
             emp1.SayName();
-            
+
             Employee emp2 = new Employee();
             emp2.FirstName = " Sample ";
             emp2.LastName = "Student2";
             emp2.Id = 2;
 
             emp2.SayName();
+
+            Console.WriteLine("Do these two employees have the same employee number?");
             Console.ReadLine();
+
+            Console.WriteLine(emp1 == emp2);
+            Console.ReadLine();
+            
+        }
+            
+
+
+       
+
         }
      
 
@@ -43,4 +59,4 @@ namespace Operator_Overload
         //}
 
     }
-}
+
