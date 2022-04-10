@@ -14,7 +14,7 @@ namespace Lamda
         static void Main(string[] args)
         {
 
-            
+
             List<Employee> employee = new List<Employee>() {
                 new Employee(){ Id = 1, FirstName="Bill", LastName= "Smith"},
                 new Employee(){ Id = 2, FirstName="Steve", LastName= "Cantenberry"},
@@ -34,7 +34,7 @@ namespace Lamda
                 new Employee(){ Id = 16, FirstName="Nancy", LastName= "Lajimualish"}
             };
 
-            Employee emp1 = new Employee();
+            //Employee emp1 = new Employee();
 
             //Console.WriteLine("Oldies");
             //employee.FindAll(emp => employee.Id < 1960)
@@ -51,18 +51,45 @@ namespace Lamda
             //{
             //    Console.WriteLine("Id={0}, FirstName={1}, LastName={2}", <employee>, employee.FirstName, employee.LastName);
             //}
-            foreach (var item in employee)
-                if (item.FirstName == "Joe")
-                    Console.WriteLine("Id: {0} FirstName: {1} LastName: {2}", item.Id, item.FirstName, item.LastName);
+            //foreach (var item in employee)
+            //    if (item.FirstName == "Joe")
+            //        Console.WriteLine("Id: {0} FirstName: {1} LastName: {2}", item.Id, item.FirstName, item.LastName);
+            //Console.ReadLine();
+
+            List<Employee> joeList1 = new List<Employee>();
+
+            foreach (Employee emp in employee)
+            {
+                if (emp.FirstName == "Joe")
+                {
+                    employee.Add(emp);
+
+                }
+                Console.WriteLine();
+            }
+            Console.ReadLine();
+
+            employee.FindAll(emp => emp.FirstName == "Joe");
+            Console.WriteLine();
+
+
+            List<Employee> joeList2 = employee.Where(emp => emp.FirstName == "Joe").ToList();
+            Console.WriteLine();
+
+            Console.ReadLine();
+
+            List<Employee> empList = employee.Where(emp => emp.Id > 5).ToList();
+            Console.WriteLine();
+
             Console.ReadLine();
 
 
-            Console.WriteLine(employee.FindAll(emp => (emp1.Id > 5)));
-            Console.ReadLine();
+            //Console.WriteLine(employee.FindAll(emp => (emp1.Id > 5)));
+            //Console.ReadLine();
 
 
-            Console.WriteLine(employee.FindAll(emp => emp1.FirstName == "Joe"));
-            Console.ReadLine();
+            //Console.WriteLine(employee.FindAll(emp => emp1.FirstName == "Joe"));
+            //Console.ReadLine();
 
             //    foreach (var item in employee)
             //    Console.WriteLine("Id: {0} FirstName: {1} LastName: {2}", item.Id, item.FirstName, item.LastName);
@@ -73,12 +100,12 @@ namespace Lamda
             //    Console.WriteLine("Id: {0} FirstName: {1} LastName: {2}", employee[i].Id, employee[i].FirstName, employee[i].LastName);
             //Console.ReadLine();
 
-            foreach (var item in employee)
-                if (item.FirstName == "Joe") employee.ForEach(em => Console.WriteLine("Id: {0} FirstName: {1} LastName: {2}", item.Id, item.FirstName, item.LastName));
-            Console.ReadLine();
+            //foreach (var item in employee)
+            //    if (item.FirstName == "Joe") employee.ForEach(em => Console.WriteLine("Id: {0} FirstName: {1} LastName: {2}", item.Id, item.FirstName, item.LastName));
+            //Console.ReadLine();
+
+
 
         }
-
-
     }
 }
