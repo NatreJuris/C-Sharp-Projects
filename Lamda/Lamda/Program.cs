@@ -62,25 +62,28 @@ namespace Lamda
             {
                 if (emp.FirstName == "Joe")
                 {
-                    employee.Add(emp);
-
+                    joeList1.Add(emp);
                 }
-                Console.WriteLine();
+            }
+            foreach (Employee emp in joeList1)
+            {
+                Console.WriteLine(emp.FirstName + " " + emp.LastName + " Id: " + emp.Id);
+            }
+            
+            Console.ReadLine();
+
+            List<Employee> joeList2 = employee.Where(emp => emp.FirstName == "Joe").ToList();
+            foreach (Employee emp in joeList2)
+            {
+                Console.WriteLine(emp.FirstName + " " + emp.LastName + " Id: " + emp.Id);
             }
             Console.ReadLine();
 
-            employee.FindAll(emp => emp.FirstName == "Joe");
-            Console.WriteLine();
-
-
-            List<Employee> joeList2 = employee.Where(emp => emp.FirstName == "Joe").ToList();
-            Console.WriteLine();
-
-            Console.ReadLine();
-
             List<Employee> empList = employee.Where(emp => emp.Id > 5).ToList();
-            Console.WriteLine();
-
+            foreach (Employee emp in empList)
+            {
+                Console.WriteLine(emp.FirstName + " " + emp.LastName + " Id: " + emp.Id);
+            }
             Console.ReadLine();
 
 
