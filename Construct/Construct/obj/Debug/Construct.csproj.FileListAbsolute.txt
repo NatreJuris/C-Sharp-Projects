@@ -1,0 +1,7 @@
+C:\Users\Student\source\repos\Construct\Construct\bin\Debug\Construct.exe.config
+C:\Users\Student\source\repos\Construct\Construct\bin\Debug\Construct.exe
+C:\Users\Student\source\repos\Construct\Construct\bin\Debug\Construct.pdb
+C:\Users\Student\source\repos\Construct\Construct\obj\Debug\Construct.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\Construct\Construct\obj\Debug\Construct.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\Construct\Construct\obj\Debug\Construct.exe
+C:\Users\Student\source\repos\Construct\Construct\obj\Debug\Construct.pdb
