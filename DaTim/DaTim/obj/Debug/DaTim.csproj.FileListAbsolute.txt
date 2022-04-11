@@ -1,0 +1,7 @@
+C:\Users\Student\source\repos\DaTim\DaTim\bin\Debug\DaTim.exe.config
+C:\Users\Student\source\repos\DaTim\DaTim\bin\Debug\DaTim.exe
+C:\Users\Student\source\repos\DaTim\DaTim\bin\Debug\DaTim.pdb
+C:\Users\Student\source\repos\DaTim\DaTim\obj\Debug\DaTim.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\DaTim\DaTim\obj\Debug\DaTim.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\DaTim\DaTim\obj\Debug\DaTim.exe
+C:\Users\Student\source\repos\DaTim\DaTim\obj\Debug\DaTim.pdb
