@@ -10,8 +10,11 @@ namespace Construct
     {
         static void Main(string[] args)
         {
-            const string yep = "Yep, ";
             
+
+            Console.ReadLine();
+            const string yep = "Yep, ";
+
             var nope = "that's right.";
 
             var ok = nope;
@@ -22,6 +25,35 @@ namespace Construct
             Console.ReadLine();
             Console.WriteLine(yep + ok);
             Console.ReadLine();
+
+            
+        }
+    }
+    class Student
+    {
+        string student = "";
+        string d = "";
+        string fN = "";
+        string lN = "";
+
+        public Student(string id): this(id, "", "")
+        {
+
+        }
+
+        public Student(string id, string fName): this(id, fName, "")
+        {
+
+        }
+
+        public Student(string id, string fName, string lName)
+        {
+            student = "student";
+
+            d = id;
+            fN = fName;
+            lN = lName;
         }
     }
 }
+    
